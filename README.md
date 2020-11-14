@@ -1,3 +1,4 @@
+
 ### Hi there 👋
 
 <!--
@@ -14,3 +15,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+I'm **Harun Nur Rasyid**
+  
+
+>   - 🔭 I’m currently Lead Software Engineer at moreno.com & TechLead - Co-Founder at voluntreep.com
+>   - ⚡ Fun fact: Coffee Addict
+>   - 📫 How to reach me: You can reach me on [LinkedIn](https://bit.ly/38eJwLo)
+
+	
+#### Thankyou very much. ####
