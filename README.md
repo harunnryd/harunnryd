@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 I'm **Harun Nur Rasyid**
   
 
->   - 🔭 I’m currently Lead Software Engineer at moreno.com & TechLead - Co-Founder at voluntreep.com
+>   - 🔭 I’m currently Back-End Engineer at kitabisa.com & TechLead - Co-Founder at voluntreep.com
 >   - ⚡ Coffee Addict
 >   - 📫 How to reach me: You can reach me on [LinkedIn](https://bit.ly/38eJwLo)
 
