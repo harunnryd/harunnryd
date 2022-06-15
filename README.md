@@ -1,48 +1,31 @@
+### Hi there, I'm <a href="https://medium.com/@harunwols/" target="_blank">Harun Nur Rasyid</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
-### Hi there 👋
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://bit.ly/38eJwLo)
+[![Twitter Badge](https://img.shields.io/badge/-Twitter-00acee?style=flat-square&logo=Twitter&logoColor=white)](https://twitter.com/harunnryd)
+[![Instagram Badge](https://img.shields.io/badge/-Instagram-e4405f?style=flat-square&logo=Instagram&logoColor=white)](https://instagram.com/harunnryd)
+[![Medium Badge](https://img.shields.io/badge/medium-%2312100E.svg?&style=for-square&logo=medium&logoColor=white)](https://medium.com/@harunwols)
 
-<!--
-**harunnryd/harunnryd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+### Glad to see you here! &nbsp; ![](https://visitor-badge.glitch.me/badge?page_id=harunnryd.harunnryd)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+As a software engineer, I want to pursue the whole field of software engineer. Even though in my career I have been focusing more on backend engineering, but I also like to explore and discuss the whole field of software engineering and even like to discuss about business and design
 
-I'm **Harun Nur Rasyid**
-  
 
->   - 🔭 I’m currently Back-End Engineer at kitabisa.com & TechLead - Co-Founder at voluntreep.com
->   - ⚡ Coffee Addict
->   - 📫 How to reach me: You can reach me on [LinkedIn](https://bit.ly/38eJwLo)
+**Talking about Personal Stuffs:**
 
-## Get in touch:
+- 👨🏻‍💻 I’m currently Back-End Engineer at kitabisa.com, TechLead - Co-Founder at voluntreep.com, TechLead at tumbuhkembangg.com;
+- 👨🏼‍🎓 I'm currently studying on Bachelor's Degree in Information Technology, Unindra University;
+- ⚡ Coffee Addict;
+- 📫 How to reach me: [LinkedIn](https://bit.ly/38eJwLo);
 
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/harunnryd)](https://github.com/harunnryd)
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/harun-nur-rasyid-987683150)](https://www.linkedin.com/in/harun-nur-rasyid-987683150/)
-[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:harunwols@gmail.com)](mailto:harunwols@gmail.com)
-[![Instagram Badge](https://img.shields.io/badge/-Instagram-C13584?style=flat-square&labelColor=C13584&logo=instagram&logoColor=white&link=https://www.instagram.com/harunnryd/)](https://www.instagram.com/harunnryd/)
+</br>
 
-## Github Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=harunnryd&count_private=true&show_icons=true&theme=algolia" />
-</p>
 
-<!-- <p align="center"> 
-  Visitor count<br>
-  <img src="https://profile-counter.glitch.me/harunnryd/count.svg" />
-</p> -->
 
-<p align="center"> 
-  Streaks<br>
+📈 **My GitHub Stats:**
+
+<p>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=harunnryd&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=harunnryd&show_icons=true&hide_border=true&layout=compact&langs_count=8"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=harunnryd&" alt="harunnryd"/>
 </p>
-
-#### Thankyou very much. ####
