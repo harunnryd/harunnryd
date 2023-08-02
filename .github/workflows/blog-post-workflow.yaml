@@ -18,3 +18,4 @@ jobs:
         with:
             max_post_count: "10"
             feed_list: "https://medium.com/feed/@harunwols"
+            commit_message: "chore: Update Medium posts"
