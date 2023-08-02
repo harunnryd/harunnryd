@@ -13,8 +13,8 @@ As a software engineer, I want to pursue the whole field of software engineer. E
 ##### 🎙 TikTok posts:
 
 <!-- TIKTOK-POST-LIST:START -->
-
 - [TechTalk: Mengatasi Kegagalan Jaringan dengan Retrier dan Backoff Strategy di Microservice 🛤️💡#resilient #microservice #backend #programming #techtalk #podcast #edukasi #golang #coding #codingtiktok #programmer #softwareengineer #startuplife #technology #softwarearchitecture #techexplained #softwaredeveloper ](https://www.tiktok.com/@harunnryd/video/7262491674415287557)
+- [Saga Pattern: Solusi Cerdas Mengatasi Konsistensi Data dalam Microservice!🛤️💡 #TechExplained #Microservice #SagaPattern](https://www.tiktok.com/@harunnryd/video/7260588473478958341)
 
 <!-- TIKTOK-POST-LIST:END -->
 
