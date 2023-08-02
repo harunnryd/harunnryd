@@ -5,6 +5,7 @@ on:
     # Schedule to run the workflow every day at 00:00 UTC
     - cron: '0 0 * * *'
   workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the GitHub Actions Workflow page directly
+
 permissions:
   contents: write # To write the generated contents to the readme
 
@@ -25,18 +26,27 @@ jobs:
         run: npm install tiktok-scraper
 
       - name: Fetch TikTok Posts
-        run: npx tiktok-scraper user harunnryd -n 10 --session sid_tt=b10309d835ce661182866102e822df91 --filepath ./posts.json
+        run: |
+          export TIKTOK_DATA=$(npx tiktok-scraper user harunnryd -n 10 --session sid_tt=b10309d835ce661182866102e822df91)
+          echo "::set-env name=TIKTOK_DATA::$TIKTOK_DATA"
 
       - name: Update README.md
         run: |
           # Check if the template exists in README.md
           if grep -q "<!-- TIKTOK-POST-LIST:START -->" README.md; then
+            # Extract the content between the template markers
+            content=$(sed -n '/<!-- TIKTOK-POST-LIST:START -->/,/<!-- TIKTOK-POST-LIST:END -->/p' README.md)
             # Remove the existing content between the template markers
             sed -i '/<!-- TIKTOK-POST-LIST:START -->/,/<!-- TIKTOK-POST-LIST:END -->/d' README.md
+          else
+            # Set content to an empty string if the template markers do not exist
+            content=""
           fi
           # Add new content between the template markers
           echo "<!-- TIKTOK-POST-LIST:START -->" >> README.md
-          cat ./posts.json | jq -r '.collector[] | "- [" + .text + "](" + .videoUrl + ")"' >> README.md
+          # Append the extracted content between the template markers (if it exists)
+          echo "$content" >> README.md
+          echo "$TIKTOK_DATA" | jq -r '.collector[] | "- [" + .text + "](" + .videoUrl + ")"' >> README.md
           echo "<!-- TIKTOK-POST-LIST:END -->" >> README.md
 
       - name: Commit and Push Changes
@@ -44,5 +54,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git commit -m "Update TikTok posts"
+          git commit -m "chore: Update tiktok latest post"
           git push
