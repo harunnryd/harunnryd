@@ -1,0 +1,39 @@
+name: Update TikTok Posts
+
+on:
+  schedule:
+    # Schedule to run the workflow every day at 00:00 UTC
+    - cron: '0 0 * * *'
+
+jobs:
+  update_readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+
+      - name: Install TikTok Scraper
+        run: npm install tiktok-scraper
+
+      - name: Fetch TikTok Posts
+        run: npx tiktok-scraper "@harunnryd" --user -n 10 --filename posts.json
+
+      - name: Update README.md
+        run: |
+          echo "<!-- TIKTOK-POST-LIST:START -->" > README.md
+          cat posts.json | jq -r '.collector[] | "- [" + .text + "](" + .videoUrl + ")"' >> README.md
+          echo "<!-- TIKTOK-POST-LIST:END -->" >> README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update TikTok posts"
+          git push
