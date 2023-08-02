@@ -25,7 +25,7 @@ jobs:
         run: npm install tiktok-scraper
 
       - name: Fetch TikTok Posts
-        run: npx tiktok-scraper user harunnryd -n 300 -t json --session sid_tt=b10309d835ce661182866102e822df91 --filename post.json
+        run: npx tiktok-scraper user harunnryd -n 300 -t json --session sid_tt=b10309d835ce661182866102e822df91 --filename posts.json
 
       - name: Update README.md
         run: |
