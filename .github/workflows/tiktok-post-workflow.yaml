@@ -30,19 +30,20 @@ jobs:
       - name: Wait for file to be created
         run: sleep 10
 
-      - name: Update README.md
+      - name: Update README.md Template Section
         run: |
-          # Check if the template exists in README.md
-          if grep -q "<!-- TIKTOK-POST-LIST:START -->" README.md; then
-            # Remove the existing content between the template markers
-            sed -i '/<!-- TIKTOK-POST-LIST:START -->/,/<!-- TIKTOK-POST-LIST:END -->/d' README.md
-          fi
-          # Add new content between the template markers and store it in a temporary file
+          # Extract the content between the template markers from the current README.md
+          TEMPLATE_CONTENT=$(sed -n '/<!-- TIKTOK-POST-LIST:START -->/,/<!-- TIKTOK-POST-LIST:END -->/p' README.md)
+
+          # Create a temporary file with the fetched TikTok posts
           echo "<!-- TIKTOK-POST-LIST:START -->" > temp.md
-          cat posts.json | jq -r '.collector[] | "- [" + .text + "](" + .videoUrl + ")"' >> temp.md
+          cat posts.json | jq -r '.[] | "- [" + .text + "](" + .videoUrl + ")"' >> temp.md
           echo "<!-- TIKTOK-POST-LIST:END -->" >> temp.md
-          # Replace the original README.md with the temporary file
-          mv temp.md README.md
+
+          # Replace the content between the template markers with the fetched TikTok posts
+          sed -i '/<!-- TIKTOK-POST-LIST:START -->/,/<!-- TIKTOK-POST-LIST:END -->/d' README.md
+          cat temp.md >> README.md
+          rm temp.md
 
       - name: Commit and Push Changes
         run: |
