@@ -24,26 +24,46 @@ jobs:
       - name: Install TikTok Scraper
         run: npm install git+https://github.com/fadytaher/tiktok-scraper.git
 
+
       - name: Fetch TikTok Posts
+        id: fetch_tiktok_posts
         run: npx tiktok-scraper user harunnryd -n 300 -t json --session sid_tt=b10309d835ce661182866102e822df91 --filename posts
 
-      - name: Wait for file to be created
-        run: sleep 10
+      - name: Read TikTok posts template from README.md
+        id: read_template
+        run: |
+          TEMPLATE_CONTENT=$(sed -n '/<!-- TIKTOK-POST-LIST:START -->/,/<!-- TIKTOK-POST-LIST:END -->/p' README.md)
+          echo "::set-output name=template::$TEMPLATE_CONTENT"
 
-      - name: Generate TikTok Posts List
-        id: generate_tiktok_posts
+      - name: Generate new TikTok posts content
+        id: generate_tiktok_posts_content
         run: |
           cat posts.json | jq -r '.[] | "- [" + .text + "](" + .videoUrl + ")"' > tiktok_posts.md
+          echo "::set-output name=content::$(cat tiktok_posts.md)"
 
-      - name: Update README.md
+      - name: Merge template and new TikTok posts content
+        id: merge_template
         run: |
-          # Replace TikTok posts content
-          awk -v start="<!-- TIKTOK-POST-LIST:START -->" -v end="<!-- TIKTOK-POST-LIST:END -->" \
-              'NR==FNR { a[i++]=$0; next } /<!-- TIKTOK-POST-LIST:START -->/ { f=1; print; system("cat tiktok_posts.md"); next } /<!-- TIKTOK-POST-LIST:END -->/ { f=0 } !f { print } END { if (!f) for (j=0; j<i; j++) print a[j] }' \
-              README.md README.md > README.new.md
+          template="${{ steps.read_template.outputs.template }}"
+          content="${{ steps.generate_tiktok_posts_content.outputs.content }}"
+          new_content="$template\n$content"
+          echo "::set-output name=content::$new_content"
 
-          # Overwrite the original README.md with the updated content
-          mv README.new.md README.md
+      - name: Compare current and new content
+        id: compare_content
+        run: |
+          current_content=$(cat README.md | sed -n '/<!-- TIKTOK-POST-LIST:START -->/,/<!-- TIKTOK-POST-LIST:END -->/p')
+          new_content="${{ steps.merge_template.outputs.content }}"
+          if [ "$current_content" = "$new_content" ]; then
+            echo "No new TikTok content to update."
+            exit 0
+          fi
+
+      - name: Update TikTok section in README.md
+        if: steps.compare_content.outputs.code == '0'
+        run: |
+          new_content="${{ steps.merge_template.outputs.content }}"
+          sed -i '/<!-- TIKTOK-POST-LIST:START -->/,/<!-- TIKTOK-POST-LIST:END -->/c\'"$new_content"'' README.md
 
       - name: Commit and Push Changes
         run: |
