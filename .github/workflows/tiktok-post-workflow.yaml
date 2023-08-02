@@ -30,19 +30,20 @@ jobs:
       - name: Wait for file to be created
         run: sleep 10
 
-      - name: Update README.md Template Section
+      - name: Generate TikTok Posts List
+        id: generate_tiktok_posts
         run: |
-          # Extract the content between the template markers from the current README.md
-          TEMPLATE_CONTENT=$(sed -n '/<!-- TIKTOK-POST-LIST:START -->/,/<!-- TIKTOK-POST-LIST:END -->/p' README.md)
-
-          # Create a temporary file with the fetched TikTok posts
           cat posts.json | jq -r '.[] | "- [" + .text + "](" + .videoUrl + ")"' > tiktok_posts.md
 
-          # Update the TikTok posts section in the README.md
-          sed -i '/<!-- TIKTOK-POST-LIST:START -->/,/<!-- TIKTOK-POST-LIST:END -->/d' README.md
-          echo "$TEMPLATE_CONTENT" >> README.md
-          cat tiktok_posts.md >> README.md
-          rm tiktok_posts.md
+      - name: Update README.md
+        run: |
+          # Replace TikTok posts content
+          awk -v start="<!-- TIKTOK-POST-LIST:START -->" -v end="<!-- TIKTOK-POST-LIST:END -->" \
+              'NR==FNR { a[i++]=$0; next } /<!-- TIKTOK-POST-LIST:START -->/ { f=1; print; system("cat tiktok_posts.md"); next } /<!-- TIKTOK-POST-LIST:END -->/ { f=0 } !f { print } END { if (!f) for (j=0; j<i; j++) print a[j] }' \
+              README.md README.md > README.new.md
+
+          # Overwrite the original README.md with the updated content
+          mv README.new.md README.md
 
       - name: Commit and Push Changes
         run: |
