@@ -27,8 +27,8 @@ jobs:
 
       - name: Fetch TikTok Posts
         run: |
-          export TIKTOK_DATA=$(npx tiktok-scraper user harunnryd -n 10 --session sid_tt=b10309d835ce661182866102e822df91)
-          echo "::set-env name=TIKTOK_DATA::$TIKTOK_DATA"
+          TIKTOK_DATA=$(npx tiktok-scraper user harunnryd -n 10 --session sid_tt=b10309d835ce661182866102e822df91)
+          echo "TIKTOK_DATA=$TIKTOK_DATA" >> $GITHUB_ENV
 
       - name: Update README.md
         run: |
@@ -54,5 +54,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git commit -m "chore: Update tiktok latest post"
+          git commit -m "Update TikTok posts"
           git push
