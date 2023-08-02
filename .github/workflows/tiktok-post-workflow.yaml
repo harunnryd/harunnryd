@@ -25,7 +25,7 @@ jobs:
         run: npm install tiktok-scraper
 
       - name: Fetch TikTok Posts
-        run: npx tiktok-scraper user harunnryd -n 10 --session sid_tt=b10309d835ce661182866102e822df91 --filename ./posts.json
+        run: npx tiktok-scraper user harunnryd -n 10 --session sid_tt=b10309d835ce661182866102e822df91 --filepath ./posts.json
 
       - name: Update README.md
         run: |
@@ -36,7 +36,7 @@ jobs:
           fi
           # Add new content between the template markers
           echo "<!-- TIKTOK-POST-LIST:START -->" >> README.md
-          cat posts.json | jq -r '.collector[] | "- [" + .text + "](" + .videoUrl + ")"' >> README.md
+          cat ./posts.json | jq -r '.collector[] | "- [" + .text + "](" + .videoUrl + ")"' >> README.md
           echo "<!-- TIKTOK-POST-LIST:END -->" >> README.md
 
       - name: Commit and Push Changes
