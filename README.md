@@ -13,6 +13,8 @@ As a software engineer, I want to pursue the whole field of software engineer. E
 ##### 🎙 TikTok posts:
 
 <!-- TIKTOK-POST-LIST:START -->
+- [Misteri Tersembunyi di Balik Mummy Hatshepsut: Kisah Ratunya yang Diabaikan dalam Sejarah Mesir Kuno #fyp #mummy #hatshepsut #pyramid #firaun ](https://www.tiktok.com/@harunnryd/video/7264711671598402822)
+- [TechTalk: Cooling Down Strategy, solusi serangan spam pada service ⚡️#microservices #programmer #backenddeveloper #resilient #softwaredeveloper #softwarearchitect  @Harun Nur Rasyid ](https://www.tiktok.com/@harunnryd/video/7264601294961167622)
 - [TechTalk: Pahami Lebih Dalam tentang Caching Strategy! 💻🔧 #softwaredevelop #programmer #backenddeveloper #janganasalkoding ](https://www.tiktok.com/@harunnryd/video/7264203422595812614)
 - [TechTalk: Mengatasi Duplikasi dengan Idempotent Request #programmer #thenextlevelprogrammer #edukasi #janganasalkoding #microservices ](https://www.tiktok.com/@harunnryd/video/7263908332128226565)
 - [TechTalk: Jaga Stabilitas dengan Circuit Breaker #microservice #backend #programming #techtalk #podcast #edukasi #golang #coding #codingtiktok #programmer #softwareengineer #startuplife #technology #softwarearchitecture #techexplained #circuitbreaker ](https://www.tiktok.com/@harunnryd/video/7262833007785184517)
