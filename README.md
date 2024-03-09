@@ -25,6 +25,7 @@ As a software engineer, I want to pursue the whole field of software engineer. E
 
 <!-- BLOG-POST-LIST:START -->
 - [Today I Learned: Shadowed Variables can create Race Condition [Go]](https://harunwols.medium.com/today-i-learned-shadowed-variables-can-create-race-condition-go-3ba6207b0000?source=rss-cbe7ff03aab------2)
+- [Today I Learned: Retrospective](https://harunwols.medium.com/today-i-learned-retrospective-1a29787210e6?source=rss-cbe7ff03aab------2)
 <!-- BLOG-POST-LIST:END -->
 
 ##### 💻 Tech Stack:
