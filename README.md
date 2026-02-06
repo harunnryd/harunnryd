@@ -1,4 +1,4 @@
-### Hi there, I'm <a href="https://medium.com/@harunwols/" target="_blank">Harun Nur Rasyid</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+### Hi there, I'm <a href="https://harunflow.com" target="_blank">Harun Nur Rasyid</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
 ### 💫 Glad to see you here!
 
