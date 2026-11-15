@@ -1,34 +1,24 @@
-### Hi there, I'm <a href="https://harunflow.com" target="_blank">Harun Nur Rasyid</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
-
-### 💫 Glad to see you here!
-
-As a software engineer, I want to pursue the whole field of software engineer. Even though in my career I have been focusing more on backend engineering, but I also like to explore and discuss the whole field of software engineering and even like to discuss about business and design
-
-👨🏻‍💻 I’m currently Back-End Engineer at kitabisa.com, TechLead - Co-Founder at voluntreep.com, TechLead at tumbuhkembangg.com;<br>👨🏼‍🎓 I'm currently studying on Bachelor's Degree in Information Technology, Unindra University;<br>⚡ Coffee Addict;
-
-##### 📫 How to reach me:
-
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/harunnryd) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/harun-nur-rasyid-987683150) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@harunwols) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@harunnryd) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/harunnryd)
-
-##### 🎙 TikTok posts:
-
-<!-- TIKTOK-POST-LIST:START -->
-- [TechTalk: Cooling Down Strategy, solusi serangan spam pada service ⚡️#microservices #programmer #backenddeveloper #resilient #softwaredeveloper #softwarearchitect  @Harun Nur Rasyid ](https://www.tiktok.com/@harunnryd/video/7264601294961167622)
-- [TechTalk: Pahami Lebih Dalam tentang Caching Strategy! 💻🔧 #softwaredevelop #programmer #backenddeveloper #janganasalkoding ](https://www.tiktok.com/@harunnryd/video/7264203422595812614)
-- [TechTalk: Mengatasi Duplikasi dengan Idempotent Request #programmer #thenextlevelprogrammer #edukasi #janganasalkoding #microservices ](https://www.tiktok.com/@harunnryd/video/7263908332128226565)
-- [TechTalk: Jaga Stabilitas dengan Circuit Breaker #microservice #backend #programming #techtalk #podcast #edukasi #golang #coding #codingtiktok #programmer #softwareengineer #startuplife #technology #softwarearchitecture #techexplained #circuitbreaker ](https://www.tiktok.com/@harunnryd/video/7262833007785184517)
-- [TechTalk: Mengatasi Kegagalan Jaringan dengan Retrier dan Backoff Strategy di Microservice 🛤️💡#resilient #microservice #backend #programming #techtalk #podcast #edukasi #golang #coding #codingtiktok #programmer #softwareengineer #startuplife #technology #softwarearchitecture #techexplained #softwaredeveloper ](https://www.tiktok.com/@harunnryd/video/7262491674415287557)
-
-<!-- TIKTOK-POST-LIST:END -->
-
-##### 🎙 Blog posts:
-
-<!-- BLOG-POST-LIST:START -->
-- [Demystifying BPE Tokenization: Why GPT Doesn’t Read Characters?!](https://harunwols.medium.com/demystifying-bpe-tokenization-why-gpt-doesnt-read-characters-164775765428?source=rss-cbe7ff03aab------2)
-- [Today I Learned: Shadowed Variables can create Race Condition [Go]](https://harunwols.medium.com/today-i-learned-shadowed-variables-can-create-race-condition-go-3ba6207b0000?source=rss-cbe7ff03aab------2)
-- [Today I Learned: Retrospective](https://harunwols.medium.com/today-i-learned-retrospective-1a29787210e6?source=rss-cbe7ff03aab------2)
-<!-- BLOG-POST-LIST:END -->
-
-##### 💻 Tech Stack:
-
-![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Datadog](https://img.shields.io/badge/datadog-%23632CA6.svg?style=for-the-badge&logo=datadog&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![ApacheCassandra](https://img.shields.io/badge/cassandra-%231287B1.svg?style=for-the-badge&logo=apache-cassandra&logoColor=white) ![CockroachLabs](https://img.shields.io/badge/Cockroach%20Labs-6933FF?style=for-the-badge&logo=Cockroach%20Labs&logoColor=white) ![Couchbase](https://img.shields.io/badge/Couchbase-EA2328?style=for-the-badge&logo=couchbase&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![LINUX](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Rancher](https://img.shields.io/badge/rancher-%230075A8.svg?style=for-the-badge&logo=rancher&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) ![Vagrant](https://img.shields.io/badge/vagrant-%231563FF.svg?style=for-the-badge&logo=vagrant&logoColor=white)
+<!-- Generated by scripts/generate.py. Edit profile.config.json, then run python3 scripts/generate.py. -->
+<p align="center"><img src="assets/hero.svg" width="100%" alt="Harun Nur Rasyid — backend engineer and systems thinker" /></p>
+<p align="center"><img src="assets/about.svg" width="100%" alt="I build backends that do not fall apart when life gets messy" /></p>
+<p align="center"><img src="assets/section-projects.svg" width="100%" alt="Featured engineering projects" /></p>
+<p align="center"><a href="https://github.com/maskentir/fakeyou"><img src="assets/projects/fakeyou.svg" width="100%" alt="Fakeyou — Self-hosted AI meeting twin with voice and memory." /></a></p>
+<p align="center"><a href="https://github.com/harunnryd/skeltun"><img src="assets/projects/skeltun.svg" width="100%" alt="Skeltun — A practical Go backend skeleton and developer workflow." /></a></p>
+<p align="center"><a href="https://github.com/harunnryd/go-cqrs"><img src="assets/projects/go-cqrs.svg" width="100%" alt="Go-CQRS — Exploring command and query separation in Go." /></a></p>
+<p align="center"><img src="assets/section-focus.svg" width="100%" alt="What I care about" /></p>
+<p align="center"><img src="assets/focus.svg" width="100%" alt="Design for failure, make systems observable, preserve human judgment when using AI" /></p>
+<p align="center"><img src="assets/section-writing.svg" width="100%" alt="Writing and tech notes" /></p>
+<p align="center"><a href="https://harunwols.medium.com/demystifying-bpe-tokenization-why-gpt-doesnt-read-characters-164775765428"><img src="assets/writing/post-1.svg" width="100%" alt="Demystifying BPE Tokenization" /></a></p>
+<p align="center"><a href="https://harunwols.medium.com/today-i-learned-shadowed-variables-can-create-race-condition-go-3ba6207b0000"><img src="assets/writing/post-2.svg" width="100%" alt="Shadowed Variables &amp; Race Conditions" /></a></p>
+<p align="center"><a href="https://harunwols.medium.com/today-i-learned-retrospective-1a29787210e6"><img src="assets/writing/post-3.svg" width="100%" alt="Today I Learned: Retrospective" /></a></p>
+<p align="center"><img src="assets/section-stack.svg" width="100%" alt="My toolbox" /></p>
+<p align="center"><img src="assets/stack.svg" width="100%" alt="Go, Python, Ruby, Rust, PostgreSQL, Redis, MySQL, MongoDB, Docker, Kubernetes, AWS and Terraform" /></p>
+<p align="center"><img src="assets/section-connect.svg" width="100%" alt="Connect with me" /></p>
+<p align="center">
+  <a href="https://harunflow.com"><img src="assets/social/website.svg" width="24%" alt="Website" /></a>
+  <a href="https://linkedin.com/in/harun-nur-rasyid-987683150"><img src="assets/social/linkedin.svg" width="24%" alt="LinkedIn" /></a>
+  <a href="https://medium.com/@harunwols"><img src="assets/social/medium.svg" width="24%" alt="Medium" /></a>
+  <a href="https://tiktok.com/@harunnryd"><img src="assets/social/tiktok.svg" width="24%" alt="TikTok" /></a>
+</p>
+<p align="center"><img src="assets/ticker.svg" width="100%" alt="Engineering in progress — build, think, ship" /></p>
+<p align="center"><img src="assets/footer.svg" width="100%" alt="Keep building. Thanks for dropping by" /></p>

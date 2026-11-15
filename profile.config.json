@@ -1,0 +1,50 @@
+{
+  "name": "Harun Nur Rasyid",
+  "username": "harunnryd",
+  "projects": [
+    {
+      "slug": "fakeyou",
+      "title": "Fakeyou",
+      "tag": "AI / OSS",
+      "description": "Self-hosted AI meeting twin with voice and memory.",
+      "url": "https://github.com/maskentir/fakeyou"
+    },
+    {
+      "slug": "skeltun",
+      "title": "Skeltun",
+      "tag": "GO / CLI",
+      "description": "A practical Go backend skeleton and developer workflow.",
+      "url": "https://github.com/harunnryd/skeltun"
+    },
+    {
+      "slug": "go-cqrs",
+      "title": "Go-CQRS",
+      "tag": "GO / CQRS",
+      "description": "Exploring command and query separation in Go.",
+      "url": "https://github.com/harunnryd/go-cqrs"
+    }
+  ],
+  "articles": [
+    {
+      "label": "Demystifying BPE Tokenization",
+      "topic": "AI / LANGUAGE MODELS",
+      "url": "https://harunwols.medium.com/demystifying-bpe-tokenization-why-gpt-doesnt-read-characters-164775765428"
+    },
+    {
+      "label": "Shadowed Variables & Race Conditions",
+      "topic": "GO / CONCURRENCY",
+      "url": "https://harunwols.medium.com/today-i-learned-shadowed-variables-can-create-race-condition-go-3ba6207b0000"
+    },
+    {
+      "label": "Today I Learned: Retrospective",
+      "topic": "ENGINEERING / REFLECTION",
+      "url": "https://harunwols.medium.com/today-i-learned-retrospective-1a29787210e6"
+    }
+  ],
+  "socials": [
+    {"slug":"website","label":"Website","url":"https://harunflow.com"},
+    {"slug":"linkedin","label":"LinkedIn","url":"https://linkedin.com/in/harun-nur-rasyid-987683150"},
+    {"slug":"medium","label":"Medium","url":"https://medium.com/@harunwols"},
+    {"slug":"tiktok","label":"TikTok","url":"https://tiktok.com/@harunnryd"}
+  ]
+}
