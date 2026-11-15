@@ -21,8 +21,8 @@ jobs:
         run: python3 scripts/generate.py
       - name: Commit generated artwork if changed
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Harun Nur Rasyid"
+          git config user.email "harunwols@gmail.com"
           git add README.md assets
           if ! git diff --cached --quiet; then
             git commit -m "chore(profile): regenerate SVG artwork"
